@@ -1,5 +1,8 @@
-public class App {
+import java.util.*;
+
+public class SistemaIMC {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
     }
 }
