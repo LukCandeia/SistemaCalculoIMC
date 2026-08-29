@@ -1,15 +1,13 @@
 
 public class Pessoa {
     String nome;
-    String sobrenome;
     int idade;
     double altura;
     double peso;
     double imc;
 
-    public Pessoa(String nome, String sobrenome, int idade, double altura, double peso, double imc) {
+    public Pessoa(String nome, int idade, double altura, double peso, double imc) {
         this.nome = nome;
-        this.sobrenome = sobrenome;
         this.idade = idade;
         this.altura = altura;
         this.peso = peso;
@@ -18,7 +16,6 @@ public class Pessoa {
 
     public Pessoa() {
         this.nome = "";
-        this.sobrenome = "";
         this.idade = 0;
         this.altura = 0.0;
         this.peso = 0.0;
@@ -54,14 +51,6 @@ public class Pessoa {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getSobrenome() {
-        return sobrenome;
-    }
-
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
     }
 
     public int getIdade() {
