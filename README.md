@@ -1,5 +1,3 @@
-# AINDA ESTÁ EM DESENVOLVIMENTO
-
 # Calculadora de IMC em Java
 
 Projeto acadêmico desenvolvido para demonstrar os conceitos fundamentais da **Programação Orientada a Objetos (POO)** em Java, como encapsulamento, classes, métodos e atributos.
